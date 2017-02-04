@@ -1,0 +1,1240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class StoreCore\StoreFront\GoogleAnalyticsHit</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-StoreCore.StoreFront.html" title="Summary of StoreCore\StoreFront"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.html">
+							Psr<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Psr.Cache.html">
+							Cache						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.Log.html">
+							Log						</a>
+							</li>
+								</ul></li>
+					<li class="active">
+						<a href="namespace-StoreCore.html">
+							StoreCore<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-StoreCore.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Database.html">
+							Database						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.FileSystem.html">
+							FileSystem						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.I18N.html">
+							I18N						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Modules.html">
+							Modules						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-StoreCore.StoreFront.html">
+							StoreFront						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Types.html">
+							Types						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-StoreCore.StoreFront.FullPageCache.html">FullPageCache</a></li>
+				<li><a href="class-StoreCore.StoreFront.GoogleAnalyticsEcommerceItemHit.html">GoogleAnalyticsEcommerceItemHit</a></li>
+				<li><a href="class-StoreCore.StoreFront.GoogleAnalyticsEcommerceTransactionHit.html">GoogleAnalyticsEcommerceTransactionHit</a></li>
+				<li class="active"><a href="class-StoreCore.StoreFront.GoogleAnalyticsHit.html">GoogleAnalyticsHit</a></li>
+				<li><a href="class-StoreCore.StoreFront.Location.html">Location</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class GoogleAnalyticsHit</h1>
+
+
+	<div class="description">
+	<p>Google Measurement Protocol Hit</p>
+	</div>
+
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-StoreCore.StoreFront.GoogleAnalyticsEcommerceItemHit.html">StoreCore\StoreFront\GoogleAnalyticsEcommerceItemHit</a></code>, 
+			<code><a href="class-StoreCore.StoreFront.GoogleAnalyticsEcommerceTransactionHit.html">StoreCore\StoreFront\GoogleAnalyticsEcommerceTransactionHit</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-StoreCore.html">StoreCore</a>\<a href="namespace-StoreCore.StoreFront.html">StoreFront</a><br>
+		<b>Package:</b> StoreCore\BI<br>
+
+				<b>Copyright:</b>
+				Copyright (c) 2016 StoreCore<br>
+				<b>License:</b>
+				<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a><br>
+				<b>Author:</b>
+				Ward van der Put <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m">&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m</a><br>
+				<b>Version:</b>
+				0.1.0<br>
+				<b>See:</b>
+				https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters<br>
+				<b>Uses:</b>
+				<code><a href="class-StoreCore.Types.ClientID.html">StoreCore\Types\ClientID</a></code><br>
+			<b>Located at</b> <a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#4-450" title="Go to source code">StoreFront/GoogleAnalyticsHit.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-StoreCore.StoreFront.GoogleAnalyticsHit.html">StoreCore\StoreFront\GoogleAnalyticsHit</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#67-88" title="Go to source code">__construct</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><a href="class-StoreCore.StoreFront.GoogleAnalyticsHit.html">StoreCore\StoreFront\GoogleAnalyticsHit</a></code>
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="anonymizeIP" id="_anonymizeIP">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_anonymizeIP">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#90-102" title="Go to source code">anonymizeIP</a>( <span>boolean <var>$anonymize_ip</var> = <span class="php-keyword1">true</span></span> )</code>
+
+			<div class="description short">
+				<p>Anonymize the client IP address.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Anonymize the client IP address.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$anonymize_ip</var></dt>
+						<dd>Anonymize (default true) or publish (false) the client IP address.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="collect" id="_collect">
+
+			<td class="attributes"><code>
+				 public 
+				true|string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_collect">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#104-178" title="Go to source code">collect</a>( )</code>
+
+			<div class="description short">
+				<p>Post the hit to Google.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Post the hit to Google.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						true|string<br>Returns true on success or a payload string on failure.
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="debug" id="_debug">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_debug">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#180-190" title="Go to source code">debug</a>( )</code>
+
+			<div class="description short">
+				<p>Enable debug mode.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Enable debug mode.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setClientID" id="_setClientID">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setClientID">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#192-203" title="Go to source code">setClientID</a>( <span><code><a href="class-StoreCore.Types.ClientID.html">StoreCore\Types\ClientID</a></code> <var>$client_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the client ID (cid).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the client ID (cid).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$client_id</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+					<h4>Uses</h4>
+					<div class="list">
+							<code><a href="class-StoreCore.Types.Varchar.html#___toString">StoreCore\Types\Varchar::__toString()</a></code><br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setContentGroup" id="_setContentGroup">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setContentGroup">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#205-234" title="Go to source code">setContentGroup</a>( <span>string <var>$content_group</var></span>, <span>integer <var>$index</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Set the content group (cg)</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the content group (cg)</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$content_group</var></dt>
+						<dd><p>The value of a content group is hierarchichal text delimited by '/'.
+  Leading and trailing slashes will be removed and any repeated slashes
+  will be reduced to a single slash.</p></dd>
+						<dt><var>$index</var></dt>
+						<dd><p>Optional content group index ranging from 1 through 10.  If this
+  optional parameter is not set, the index is derived from the content
+  group hierarchy.  For example, 'news/sports' will have an index of 2,
+  assuming that 'news' has index 1 one level up in the hierarchy.</p></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setCurrency" id="_setCurrency">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setCurrency">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#236-260" title="Go to source code">setCurrency</a>( <span>string <var>$currency_code</var> = <span class="php-quote">'EUR'</span></span> )</code>
+
+			<div class="description short">
+				<p>Add and optionally set the currency (cu).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Add and optionally set the currency (cu).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$currency_code</var></dt>
+						<dd><p>$currency_code.
+  Optional ISO 4217 currency code.  Defaults to 'EUR' for European euro.</p></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						InvalidArgumentException
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setCustomDimension" id="_setCustomDimension">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setCustomDimension">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#263-281" title="Go to source code">setCustomDimension</a>( <span>string <var>$custom_dimension_text</var></span>, <span> <var>$index</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Set a custom dimension text (cd).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set a custom dimension text (cd).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$custom_dimension_text</var></dt>
+						<dd></dd>
+						<dt><var>$index</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setCustomMetric" id="_setCustomMetric">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setCustomMetric">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#283-301" title="Go to source code">setCustomMetric</a>( <span>float|integer <var>$custom_metric_number</var></span>, <span> <var>$index</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				<p>Set a custom metric number (cm).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set a custom metric number (cm).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$custom_metric_number</var></dt>
+						<dd></dd>
+						<dt><var>$index</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setDataSource" id="_setDataSource">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setDataSource">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#303-317" title="Go to source code">setDataSource</a>( <span>string <var>$data_source</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the data source (ds).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the data source (ds).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$data_source</var></dt>
+						<dd><p>By default, hits sent from analytics.js will have data source set to
+  'web'; hits sent from one of the mobile SDKs will have data source set
+  to 'app'.  Other data sources are allowed, for example 'crm'.</p></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setDocumentHostname" id="_setDocumentHostname">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setDocumentHostname">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#319-329" title="Go to source code">setDocumentHostname</a>( <span>string <var>$document_hostname</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the document host name (dh).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the document host name (dh).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$document_hostname</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setDocumentReferrer" id="_setDocumentReferrer">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setDocumentReferrer">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#331-343" title="Go to source code">setDocumentReferrer</a>( <span>string <var>$document_referrer</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the HTTP document referrer (dr).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the HTTP document referrer (dr).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$document_referrer</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setDocumentPath" id="_setDocumentPath">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setDocumentPath">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#345-359" title="Go to source code">setDocumentPath</a>( <span>string <var>$document_path</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the document path (dp).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the document path (dp).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$document_path</var></dt>
+						<dd>path portion of the page URL.  Should begin with '/'.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setException" id="_setException">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setException">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#361-375" title="Go to source code">setException</a>( <span>string <var>$exception</var></span>, <span>boolean <var>$fatal</var> = <span class="php-keyword1">false</span></span> )</code>
+
+			<div class="description short">
+				<p>Set an exception (exd) that may be fatal (exf).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set an exception (exd) that may be fatal (exf).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$exception</var></dt>
+						<dd></dd>
+						<dt><var>$fatal</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setExperiment" id="_setExperiment">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setExperiment">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#377-389" title="Go to source code">setExperiment</a>( <span>mixed <var>$experiment_id</var></span>, <span>mixed <var>$experiment_variant</var></span> )</code>
+
+			<div class="description short">
+				<p>Set an experiment (xid) and the experiment variant (xvar).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set an experiment (xid) and the experiment variant (xvar).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$experiment_id</var></dt>
+						<dd></dd>
+						<dt><var>$experiment_variant</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setHitType" id="_setHitType">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setHitType">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#391-410" title="Go to source code">setHitType</a>( <span>string <var>$hit_type</var></span> )</code>
+
+			<div class="description short">
+				<p>Change the hit type.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Change the hit type.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$hit_type</var></dt>
+						<dd><p>A hit type like 'pageview', 'item' or 'transaction'.  This parameter
+  may be set to one of the HIT_TYPE_ class constants.  The default type
+  is 'pageview' and HIT_TYPE_PAGEVIEW.</p></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setNonInteractionHit" id="_setNonInteractionHit">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setNonInteractionHit">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#412-422" title="Go to source code">setNonInteractionHit</a>( )</code>
+
+			<div class="description short">
+				<p>Specify a non-interaction hit (ni).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Specify a non-interaction hit (ni).</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setQueueTime" id="_setQueueTime">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setQueueTime">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#424-435" title="Go to source code">setQueueTime</a>( <span>integer <var>$milliseconds</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the queue time.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the queue time.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$milliseconds</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setTrackingID" id="_setTrackingID">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setTrackingID">#</a>
+			<code><a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#437-449" title="Go to source code">setTrackingID</a>( <span>string <var>$tracking_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the tracking ID (tid).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the tracking ID (tid).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$tracking_id</var></dt>
+						<dd>Tracking ID or property ID (UA-XXXXX-Y).</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<br>$this
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="VERSION" id="VERSION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#17-18" title="Go to source code"><b>VERSION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#VERSION" class="anchor">#</a>
+						<code><span class="php-quote">'0.1.0'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_EXCEPTION" id="HIT_TYPE_EXCEPTION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#20-30" title="Go to source code"><b>HIT_TYPE_EXCEPTION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_EXCEPTION" class="anchor">#</a>
+						<code><span class="php-quote">'exception'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_EVENT" id="HIT_TYPE_EVENT">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#31" title="Go to source code"><b>HIT_TYPE_EVENT</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_EVENT" class="anchor">#</a>
+						<code><span class="php-quote">'event'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_ITEM" id="HIT_TYPE_ITEM">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#32" title="Go to source code"><b>HIT_TYPE_ITEM</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_ITEM" class="anchor">#</a>
+						<code><span class="php-quote">'item'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_PAGEVIEW" id="HIT_TYPE_PAGEVIEW">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#33" title="Go to source code"><b>HIT_TYPE_PAGEVIEW</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_PAGEVIEW" class="anchor">#</a>
+						<code><span class="php-quote">'pageview'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_SCREENVIEW" id="HIT_TYPE_SCREENVIEW">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#34" title="Go to source code"><b>HIT_TYPE_SCREENVIEW</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_SCREENVIEW" class="anchor">#</a>
+						<code><span class="php-quote">'screenview'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_SOCIAL" id="HIT_TYPE_SOCIAL">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#35" title="Go to source code"><b>HIT_TYPE_SOCIAL</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_SOCIAL" class="anchor">#</a>
+						<code><span class="php-quote">'social'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_TIMING" id="HIT_TYPE_TIMING">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#36" title="Go to source code"><b>HIT_TYPE_TIMING</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_TIMING" class="anchor">#</a>
+						<code><span class="php-quote">'timing'</span></code>
+					</div>
+				</td>
+			</tr>
+			<tr data-order="HIT_TYPE_TRANSACTION" id="HIT_TYPE_TRANSACTION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#37" title="Go to source code"><b>HIT_TYPE_TRANSACTION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#HIT_TYPE_TRANSACTION" class="anchor">#</a>
+						<code><span class="php-quote">'transaction'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="Data" id="$Data">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#42-47" title="Go to source code"><var>$Data</var></a>
+
+				<div class="description short">
+					<p>$Data</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>$Data</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$Data" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>(
+    <span class="php-quote">'v'</span>  =&gt; <span class="php-num">1</span>,          <span class="php-comment">// version</span>
+    <span class="php-quote">'t'</span>  =&gt; <span class="php-quote">'pageview'</span>, <span class="php-comment">// hit type</span>
+    <span class="php-quote">'ds'</span> =&gt; <span class="php-quote">'web'</span>,      <span class="php-comment">// data source (optional)</span>
+)</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="CustomDimensions" id="$CustomDimensions">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#49-53" title="Go to source code"><var>$CustomDimensions</var></a>
+
+				<div class="description short">
+					<p>$CustomDimensions Indexed array cd<dimensionIndex>=<string></p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>$CustomDimensions Indexed array cd<dimensionIndex>=<string></p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$CustomDimensions" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="CustomMetrics" id="$CustomMetrics">
+			<td class="attributes"><code>
+				protected  
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-StoreCore.StoreFront.GoogleAnalyticsHit.html#54" title="Go to source code"><var>$CustomMetrics</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$CustomMetrics" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

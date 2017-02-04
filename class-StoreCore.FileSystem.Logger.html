@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class StoreCore\FileSystem\Logger</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-StoreCore.FileSystem.html" title="Summary of StoreCore\FileSystem"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.html">
+							Psr<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Psr.Cache.html">
+							Cache						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.Log.html">
+							Log						</a>
+							</li>
+								</ul></li>
+					<li class="active">
+						<a href="namespace-StoreCore.html">
+							StoreCore<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-StoreCore.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Database.html">
+							Database						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-StoreCore.FileSystem.html">
+							FileSystem						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.I18N.html">
+							I18N						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.StoreFront.html">
+							StoreFront						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Types.html">
+							Types						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-StoreCore.FileSystem.Backup.html">Backup</a></li>
+				<li><a href="class-StoreCore.FileSystem.Blacklist.html">Blacklist</a></li>
+				<li><a href="class-StoreCore.FileSystem.CleanUp.html">CleanUp</a></li>
+				<li><a href="class-StoreCore.FileSystem.FileCache.html">FileCache</a></li>
+				<li><a href="class-StoreCore.FileSystem.FileIntegrityMonitor.html">FileIntegrityMonitor</a></li>
+				<li><a href="class-StoreCore.FileSystem.LogFileManager.html">LogFileManager</a></li>
+				<li class="active"><a href="class-StoreCore.FileSystem.Logger.html">Logger</a></li>
+				<li><a href="class-StoreCore.FileSystem.Redirects.html">Redirects</a></li>
+				<li><a href="class-StoreCore.FileSystem.Robots.html">Robots</a></li>
+				<li><a href="class-StoreCore.FileSystem.TranslationMemoryCache.html">TranslationMemoryCache</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class Logger</h1>
+
+
+	<div class="description">
+	<p>File System Logger</p>
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+			<a href="class-Psr.Log.AbstractLogger.html"><span>Psr\Log\AbstractLogger</span></a>
+			
+			 implements 
+				<a href="class-Psr.Log.LoggerInterface.html"><span>Psr\Log\LoggerInterface</span></a>
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>StoreCore\FileSystem\Logger</span></b>			
+			 implements 
+				<a href="class-StoreCore.SubjectInterface.html"><span>StoreCore\SubjectInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-StoreCore.html">StoreCore</a>\<a href="namespace-StoreCore.FileSystem.html">FileSystem</a><br>
+		<b>Package:</b> StoreCore\Security<br>
+
+				<b>Copyright:</b>
+				Copyright © 2014-2017 StoreCore<br>
+				<b>License:</b>
+				<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a><br>
+				<b>Author:</b>
+				Ward van der Put <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m">&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m</a><br>
+				<b>Version:</b>
+				0.1.0<br>
+			<b>Located at</b> <a href="source-class-StoreCore.FileSystem.Logger.html#9-204" title="Go to source code">FileSystem/Logger.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-StoreCore.FileSystem.Logger.html">StoreCore\FileSystem\Logger</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#41-62" title="Go to source code">__construct</a>( <span>string <var>$filename</var> = <span class="php-keyword1">null</span></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$filename</var></dt>
+						<dd><p>Optional name of the log file, with or without a trailing path.  If
+  the filename is not set, it defaults to the YYYYMMDDHH.log format with
+  a YYYY-MM-DD date and HH hours for hourly log files.</p></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><a href="class-StoreCore.FileSystem.Logger.html">StoreCore\FileSystem\Logger</a></code>
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="attach" id="_attach">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_attach">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#64-81" title="Go to source code">attach</a>( <span><code><a href="class-StoreCore.ObserverInterface.html">StoreCore\ObserverInterface</a></code> <var>$observer</var></span> )</code>
+
+			<div class="description short">
+				<p>Attach a log or logging observer.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Attach a log or logging observer.</p>
+
+<p>Observers are notified when a LogLevel::EMERGENCY or LogLevel::ALERT
+event occurs.  This allows some other process or agent to handle
+critical events, for example by sending a message to administrators.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$observer</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-StoreCore.SubjectInterface.html#_attach">StoreCore\SubjectInterface::attach()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="detach" id="_detach">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_detach">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#83-103" title="Go to source code">detach</a>( <span><code><a href="class-StoreCore.ObserverInterface.html">StoreCore\ObserverInterface</a></code> <var>$observer</var></span> )</code>
+
+			<div class="description short">
+				<p>Detach an observer.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Detach an observer.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$observer</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+					<h4>Uses</h4>
+					<div class="list">
+							<code><a href="class-Psr.Log.AbstractLogger.html#_notice">Psr\Log\AbstractLogger::notice()</a></code><br>Because important or critical events may go unnoticed for some time
+  once an observer is detached from a logger, a notice is logged and
+  saved to the current logger's log file.  The remaining observers
+  (if any) are also notified of the update.<br>
+					</div>
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-StoreCore.SubjectInterface.html#_detach">StoreCore\SubjectInterface::detach()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="flush" id="_flush">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_flush">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#105-124" title="Go to source code">flush</a>( )</code>
+
+			<div class="description short">
+				<p>Write to the log file and flush the output buffer.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Write to the log file and flush the output buffer.</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getFilename" id="_getFilename">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getFilename">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#126-135" title="Go to source code">getFilename</a>( )</code>
+
+			<div class="description short">
+				<p>Get the filename of the log file.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the filename of the log file.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getMessage" id="_getMessage">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getMessage">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#137-146" title="Go to source code">getMessage</a>( )</code>
+
+			<div class="description short">
+				<p>Get the last log message.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the last log message.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="log" id="_log">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_log">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#148-187" title="Go to source code">log</a>( <span><code><a href="class-Psr.Log.LogLevel.html">Psr\Log\LogLevel</a></code> <var>$level</var></span>, <span>string <var>$message</var></span>, <span>array <var>$context</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>Log an event.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Log an event.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$level</var></dt>
+						<dd></dd>
+						<dt><var>$message</var></dt>
+						<dd></dd>
+						<dt><var>$context</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="notify" id="_notify">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_notify">#</a>
+			<code><a href="source-class-StoreCore.FileSystem.Logger.html#189-203" title="Go to source code">notify</a>( )</code>
+
+			<div class="description short">
+				<p>Notify observers.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Notify observers.</p>
+
+
+
+
+
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-StoreCore.SubjectInterface.html#_notify">StoreCore\SubjectInterface::notify()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-Psr.Log.AbstractLogger.html#methods">Psr\Log\AbstractLogger</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-Psr.Log.AbstractLogger.html#_alert">alert()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_critical">critical()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_debug">debug()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_emergency">emergency()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_error">error()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_info">info()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_notice">notice()</a></code>, 
+				<code><a href="class-Psr.Log.AbstractLogger.html#_warning">warning()</a></code>
+			</p>
+		</div>
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="VERSION" id="VERSION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.FileSystem.Logger.html#20-21" title="Go to source code"><b>VERSION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#VERSION" class="anchor">#</a>
+						<code><span class="php-quote">'0.1.0'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

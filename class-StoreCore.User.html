@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class StoreCore\User</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-StoreCore.html" title="Summary of StoreCore"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.html">
+							Psr<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Psr.Cache.html">
+							Cache						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.Log.html">
+							Log						</a>
+							</li>
+								</ul></li>
+					<li class="active">
+						<a href="namespace-StoreCore.html">
+							StoreCore<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-StoreCore.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Database.html">
+							Database						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.FileSystem.html">
+							FileSystem						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.I18N.html">
+							I18N						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.StoreFront.html">
+							StoreFront						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Types.html">
+							Types						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-StoreCore.AbstractController.html">AbstractController</a></li>
+				<li><a href="class-StoreCore.AbstractModel.html">AbstractModel</a></li>
+				<li><a href="class-StoreCore.AbstractSubject.html">AbstractSubject</a></li>
+				<li><a href="class-StoreCore.AmplifiedMaterialDesign.html">AmplifiedMaterialDesign</a></li>
+				<li><a href="class-StoreCore.AssetCache.html">AssetCache</a></li>
+				<li><a href="class-StoreCore.Autoloader.html">Autoloader</a></li>
+				<li><a href="class-StoreCore.Document.html">Document</a></li>
+				<li><a href="class-StoreCore.FullPageCache.html">FullPageCache</a></li>
+				<li><a href="class-StoreCore.MaterialDesignLite.html">MaterialDesignLite</a></li>
+				<li><a href="class-StoreCore.Person.html">Person</a></li>
+				<li><a href="class-StoreCore.Registry.html">Registry</a></li>
+				<li><a href="class-StoreCore.Request.html">Request</a></li>
+				<li><a href="class-StoreCore.Response.html">Response</a></li>
+				<li><a href="class-StoreCore.Route.html">Route</a></li>
+				<li><a href="class-StoreCore.RouteCollection.html">RouteCollection</a></li>
+				<li><a href="class-StoreCore.Session.html">Session</a></li>
+				<li><a href="class-StoreCore.SimpleChangeManager.html">SimpleChangeManager</a></li>
+				<li><a href="class-StoreCore.SubjectObservers.html">SubjectObservers</a></li>
+				<li class="active"><a href="class-StoreCore.User.html">User</a></li>
+				<li><a href="class-StoreCore.View.html">View</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-StoreCore.ChangeManagerInterface.html">ChangeManagerInterface</a></li>
+				<li><a href="class-StoreCore.ObserverInterface.html">ObserverInterface</a></li>
+				<li><a href="class-StoreCore.SingletonInterface.html">SingletonInterface</a></li>
+				<li><a href="class-StoreCore.SubjectInterface.html">SubjectInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class User</h1>
+
+
+	<div class="description">
+	<p>StoreCore User</p>
+	</div>
+
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-StoreCore.Admin.User.html">StoreCore\Admin\User</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-StoreCore.html">StoreCore</a><br>
+		<b>Package:</b> StoreCore\Security<br>
+
+				<b>Copyright:</b>
+				Copyright © 2015-2017 StoreCore<br>
+				<b>License:</b>
+				<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a><br>
+				<b>Author:</b>
+				Ward van der Put <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m">&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m</a><br>
+				<b>Version:</b>
+				0.1.0<br>
+				<b>Used by:</b>
+				<code><a href="class-StoreCore.Admin.User.html">StoreCore\Admin\User</a></code> The \StoreCore\Admin\User administration user extends the more generic
+  \StoreCore\User framework user.<br>
+			<b>Located at</b> <a href="source-class-StoreCore.User.html#4-281" title="Go to source code">User.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="authenticate" id="_authenticate">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_authenticate">#</a>
+			<code><a href="source-class-StoreCore.User.html#39-78" title="Go to source code">authenticate</a>( <span>string <var>$password</var></span> )</code>
+
+			<div class="description short">
+				<p>Check the user credentials.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Check the user credentials.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$password</var></dt>
+						<dd></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br><p>Returns true if the user credentials check out and the user may be
+  granted access to parts of the StoreCore framework, otherwise false.
+  Members of user group 0 (zero) are always denied access.</p>
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getEmailAddress" id="_getEmailAddress">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getEmailAddress">#</a>
+			<code><a href="source-class-StoreCore.User.html#80-89" title="Go to source code">getEmailAddress</a>( )</code>
+
+			<div class="description short">
+				<p>Get the e-mail address.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the e-mail address.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getHashAlgorithm" id="_getHashAlgorithm">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getHashAlgorithm">#</a>
+			<code><a href="source-class-StoreCore.User.html#91-100" title="Go to source code">getHashAlgorithm</a>( )</code>
+
+			<div class="description short">
+				<p>Get the password hash algorithm.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the password hash algorithm.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getPasswordHash" id="_getPasswordHash">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getPasswordHash">#</a>
+			<code><a href="source-class-StoreCore.User.html#102-111" title="Go to source code">getPasswordHash</a>( )</code>
+
+			<div class="description short">
+				<p>Get the password hash.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the password hash.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getPasswordSalt" id="_getPasswordSalt">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getPasswordSalt">#</a>
+			<code><a href="source-class-StoreCore.User.html#113-122" title="Go to source code">getPasswordSalt</a>( )</code>
+
+			<div class="description short">
+				<p>Get the password salt.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the password salt.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getPersonID" id="_getPersonID">
+
+			<td class="attributes"><code>
+				 public 
+				integer|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getPersonID">#</a>
+			<code><a href="source-class-StoreCore.User.html#124-133" title="Go to source code">getPersonID</a>( )</code>
+
+			<div class="description short">
+				<p>Get the person identifier of this user.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the person identifier of this user.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						integer|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getPIN" id="_getPIN">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getPIN">#</a>
+			<code><a href="source-class-StoreCore.User.html#135-144" title="Go to source code">getPIN</a>( )</code>
+
+			<div class="description short">
+				<p>Get the personal identification number (PIN).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the personal identification number (PIN).</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserGroupID" id="_getUserGroupID">
+
+			<td class="attributes"><code>
+				 public 
+				integer
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserGroupID">#</a>
+			<code><a href="source-class-StoreCore.User.html#146-155" title="Go to source code">getUserGroupID</a>( )</code>
+
+			<div class="description short">
+				<p>Get the user group identifier.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the user group identifier.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						integer
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUserID" id="_getUserID">
+
+			<td class="attributes"><code>
+				 public 
+				integer|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUserID">#</a>
+			<code><a href="source-class-StoreCore.User.html#157-166" title="Go to source code">getUserID</a>( )</code>
+
+			<div class="description short">
+				<p>Get the user identifier.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the user identifier.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						integer|null
+					</div>
+
+
+					<h4>Used by</h4>
+					<div class="list">
+							<code><a href="class-StoreCore.Database.UserMapper.html#_ban">StoreCore\Database\UserMapper::ban()</a></code><br>
+					</div>
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getUsername" id="_getUsername">
+
+			<td class="attributes"><code>
+				 public 
+				string|null
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getUsername">#</a>
+			<code><a href="source-class-StoreCore.User.html#168-177" title="Go to source code">getUsername</a>( )</code>
+
+			<div class="description short">
+				<p>Get the username.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the username.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string|null
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setEmailAddress" id="_setEmailAddress">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setEmailAddress">#</a>
+			<code><a href="source-class-StoreCore.User.html#179-188" title="Go to source code">setEmailAddress</a>( <span>string <var>$email_address</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the e-mail address.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the e-mail address.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$email_address</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setHashAlgorithm" id="_setHashAlgorithm">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setHashAlgorithm">#</a>
+			<code><a href="source-class-StoreCore.User.html#190-199" title="Go to source code">setHashAlgorithm</a>( <span>string <var>$hash_algorithm</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the password hash algorithm.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the password hash algorithm.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$hash_algorithm</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setPasswordHash" id="_setPasswordHash">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setPasswordHash">#</a>
+			<code><a href="source-class-StoreCore.User.html#201-210" title="Go to source code">setPasswordHash</a>( <span>string <var>$password_hash</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the password hash.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the password hash.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$password_hash</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setPasswordSalt" id="_setPasswordSalt">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setPasswordSalt">#</a>
+			<code><a href="source-class-StoreCore.User.html#212-219" title="Go to source code">setPasswordSalt</a>( <span>string <var>$password_salt</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$password_salt</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setPersonID" id="_setPersonID">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setPersonID">#</a>
+			<code><a href="source-class-StoreCore.User.html#221-230" title="Go to source code">setPersonID</a>( <span>integer <var>$person_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the ID of the person associated with this user.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the ID of the person associated with this user.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$person_id</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setPIN" id="_setPIN">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setPIN">#</a>
+			<code><a href="source-class-StoreCore.User.html#232-247" title="Go to source code">setPIN</a>( <span>string <var>$pin_code</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the personal identification number (PIN).</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the personal identification number (PIN).</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$pin_code</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+					<h4>Throws</h4>
+					<div class="list">
+						UnexpectedValueException
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setUserGroupID" id="_setUserGroupID">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setUserGroupID">#</a>
+			<code><a href="source-class-StoreCore.User.html#249-258" title="Go to source code">setUserGroupID</a>( <span>integer <var>$user_group_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the user group identifier.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the user group identifier.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$user_group_id</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setUserID" id="_setUserID">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setUserID">#</a>
+			<code><a href="source-class-StoreCore.User.html#260-269" title="Go to source code">setUserID</a>( <span>integer <var>$user_id</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the unique user identifier.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the unique user identifier.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$user_id</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setUsername" id="_setUsername">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setUsername">#</a>
+			<code><a href="source-class-StoreCore.User.html#271-280" title="Go to source code">setUsername</a>( <span>string <var>$username</var></span> )</code>
+
+			<div class="description short">
+				<p>Set the username.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Set the username.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$username</var></dt>
+						<dd></dd>
+					</dl></div>
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="VERSION" id="VERSION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-StoreCore.User.html#15-16" title="Go to source code"><b>VERSION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#VERSION" class="anchor">#</a>
+						<code><span class="php-quote">'0.1.0'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

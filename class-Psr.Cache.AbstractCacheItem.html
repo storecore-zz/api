@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Psr\Cache\AbstractCacheItem</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-Psr.Cache.html" title="Summary of Psr\Cache"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-Psr.html">
+							Psr<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Psr.Cache.html">
+							Cache						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.Log.html">
+							Log						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="namespace-StoreCore.html">
+							StoreCore<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-StoreCore.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Database.html">
+							Database						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.FileSystem.html">
+							FileSystem						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.I18N.html">
+							I18N						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.StoreFront.html">
+							StoreFront						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Types.html">
+							Types						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Psr.Cache.AbstractCacheItem.html">AbstractCacheItem</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Psr.Cache.CacheExceptionInterface.html">CacheExceptionInterface</a></li>
+				<li><a href="class-Psr.Cache.CacheItemInterface.html">CacheItemInterface</a></li>
+				<li><a href="class-Psr.Cache.CacheItemPoolInterface.html">CacheItemPoolInterface</a></li>
+				<li><a href="class-Psr.Cache.InvalidArgumentExceptionInterface.html">InvalidArgumentExceptionInterface</a></li>
+			</ul>
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-Psr.Cache.CacheException.html">CacheException</a></li>
+				<li><a href="class-Psr.Cache.InvalidArgumentException.html">InvalidArgumentException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class AbstractCacheItem</h1>
+
+
+	<div class="description">
+	<p>Abstract implementation of the cache item interface.</p>
+	</div>
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+<b><span>Psr\Cache\AbstractCacheItem</span></b>			
+			 implements 
+				<a href="class-Psr.Cache.CacheItemInterface.html"><span>Psr\Cache\CacheItemInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-StoreCore.Types.Redirect.html">StoreCore\Types\Redirect</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		<b>Abstract</b><br>
+		
+		<b>Namespace:</b> <a href="namespace-Psr.html">Psr</a>\<a href="namespace-Psr.Cache.html">Cache</a><br>
+		<b>Package:</b> StoreCore\Core<br>
+
+				<b>Copyright:</b>
+				Copyright (c) 2016 StoreCore<br>
+				<b>License:</b>
+				<a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a><br>
+				<b>Author:</b>
+				Ward van der Put <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m">&#x57;&#97;&#114;d&#x2e;&#x76;&#97;&#110;&#46;&#x64;&#x65;&#x72;&#46;&#80;u&#x74;&#x40;&#103;&#109;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;m</a><br>
+				<b>Version:</b>
+				0.1.0<br>
+				<b>See:</b>
+				https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-6-cache.md<br>
+			<b>Located at</b> <a href="source-class-Psr.Cache.AbstractCacheItem.html#4-80" title="Go to source code">Psr/Cache/AbstractCacheItem.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="expiresAfter" id="_expiresAfter">
+
+			<td class="attributes"><code>
+				 public 
+				static
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_expiresAfter">#</a>
+			<code><a href="source-class-Psr.Cache.AbstractCacheItem.html#29-46" title="Go to source code">expiresAfter</a>( <span>integer|DateInterval <var>$time</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$time</var></dt>
+						<dd><p>The period of time from the present after which the item MUST be considered
+  expired. An integer parameter is understood to be the time in seconds until
+  expiration. If null is passed explicitly, a default value MAY be used.
+  If none is set, the value should be stored permanently or for as long as the
+  implementation allows.</p></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						static<br>The called object.
+					</div>
+
+
+					<h4>Inheritdoc</h4>
+					<div class="list">
+					</div>
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-Psr.Cache.CacheItemInterface.html#_expiresAfter">Psr\Cache\CacheItemInterface::expiresAfter()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="expiresAt" id="_expiresAt">
+
+			<td class="attributes"><code>
+				 public 
+				static
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_expiresAt">#</a>
+			<code><a href="source-class-Psr.Cache.AbstractCacheItem.html#48-57" title="Go to source code">expiresAt</a>( <span>DateTimeInterface <var>$expiration</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$expiration</var></dt>
+						<dd><p>The point in time after which the item MUST be considered expired.
+  If null is passed explicitly, a default value MAY be used. If none is set,
+  the value should be stored permanently or for as long as the
+  implementation allows.</p></dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						static<br>The called object.
+					</div>
+
+
+					<h4>Inheritdoc</h4>
+					<div class="list">
+					</div>
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-Psr.Cache.CacheItemInterface.html#_expiresAt">Psr\Cache\CacheItemInterface::expiresAt()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getKey" id="_getKey">
+
+			<td class="attributes"><code>
+				 public 
+				string
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getKey">#</a>
+			<code><a href="source-class-Psr.Cache.AbstractCacheItem.html#59-68" title="Go to source code">getKey</a>( )</code>
+
+			<div class="description short">
+				<p>Get the key for the current cache item.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Get the key for the current cache item.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						string
+					</div>
+
+
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-Psr.Cache.CacheItemInterface.html#_getKey">Psr\Cache\CacheItemInterface::getKey()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="isHit" id="_isHit">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_isHit">#</a>
+			<code><a href="source-class-Psr.Cache.AbstractCacheItem.html#70-79" title="Go to source code">isHit</a>( )</code>
+
+			<div class="description short">
+				<p>Confirms if the cache item lookup resulted in a cache hit.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Confirms if the cache item lookup resulted in a cache hit.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean
+					</div>
+
+
+
+
+					<h4>Implementation of</h4>
+					<div class="list"><code><a href="class-Psr.Cache.CacheItemInterface.html#_isHit">Psr\Cache\CacheItemInterface::isHit()</a></code></div>
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+		<div class="panel panel-default">
+	        <div class="panel-heading"><h3>Methods inherited from <a href="class-Psr.Cache.CacheItemInterface.html#methods">Psr\Cache\CacheItemInterface</a></h3></div>
+			<p class="elementList">
+				<code><a href="class-Psr.Cache.CacheItemInterface.html#_get">get()</a></code>, 
+				<code><a href="class-Psr.Cache.CacheItemInterface.html#_set">set()</a></code>
+			</p>
+		</div>
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Constants summary</h2></div>
+			<table class="summary table table-bordered table-striped constants" id="constants">
+			<tr data-order="VERSION" id="VERSION">
+
+				<td class="attributes"><code>string</code></td>
+				<td class="name">
+					<code>
+						<a href="source-class-Psr.Cache.AbstractCacheItem.html#16" title="Go to source code"><b>VERSION</b></a>
+					</code>
+
+					<div class="description short">
+						
+					</div>
+
+					<div class="description detailed hidden">
+						
+
+					</div>
+				</td>
+				<td class="value">
+					<div>
+						<a href="#VERSION" class="anchor">#</a>
+						<code><span class="php-quote">'0.1.0'</span></code>
+					</div>
+				</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="ExpiresAfter" id="$ExpiresAfter">
+			<td class="attributes"><code>
+				protected  
+				DateInterval|null
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Psr.Cache.AbstractCacheItem.html#18-24" title="Go to source code"><var>$ExpiresAfter</var></a>
+
+				<div class="description short">
+					<p>$ExpiresAfter</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>$ExpiresAfter</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$ExpiresAfter" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="ExpiresAt" id="$ExpiresAt">
+			<td class="attributes"><code>
+				protected  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Psr.Cache.AbstractCacheItem.html#25" title="Go to source code"><var>$ExpiresAt</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$ExpiresAt" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="IsHit" id="$IsHit">
+			<td class="attributes"><code>
+				protected  
+				boolean
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Psr.Cache.AbstractCacheItem.html#26" title="Go to source code"><var>$IsHit</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$IsHit" class="anchor">#</a>
+					<code><span class="php-keyword1">false</span></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="Key" id="$Key">
+			<td class="attributes"><code>
+				protected  
+				string
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-Psr.Cache.AbstractCacheItem.html#27" title="Go to source code"><var>$Key</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$Key" class="anchor">#</a>
+					<code><span class="php-quote">''</span></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

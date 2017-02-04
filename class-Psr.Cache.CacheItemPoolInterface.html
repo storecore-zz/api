@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Interface Psr\Cache\CacheItemPoolInterface</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-Psr.Cache.html" title="Summary of Psr\Cache"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-Psr.html">
+							Psr<span></span>
+						</a>
+							<ul>
+					<li class="active">
+						<a href="namespace-Psr.Cache.html">
+							Cache						</a>
+							</li>
+					<li>
+						<a href="namespace-Psr.Log.html">
+							Log						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="namespace-StoreCore.html">
+							StoreCore<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-StoreCore.Admin.html">
+							Admin						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Database.html">
+							Database						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.FileSystem.html">
+							FileSystem						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.I18N.html">
+							I18N						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Modules.html">
+							Modules						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.StoreFront.html">
+							StoreFront						</a>
+							</li>
+					<li>
+						<a href="namespace-StoreCore.Types.html">
+							Types						</a>
+							</li>
+								</ul></li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Psr.Cache.AbstractCacheItem.html">AbstractCacheItem</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Psr.Cache.CacheExceptionInterface.html">CacheExceptionInterface</a></li>
+				<li><a href="class-Psr.Cache.CacheItemInterface.html">CacheItemInterface</a></li>
+				<li class="active"><a href="class-Psr.Cache.CacheItemPoolInterface.html">CacheItemPoolInterface</a></li>
+				<li><a href="class-Psr.Cache.InvalidArgumentExceptionInterface.html">InvalidArgumentExceptionInterface</a></li>
+			</ul>
+
+
+			<h3>Exceptions</h3>
+			<ul>
+				<li><a href="class-Psr.Cache.CacheException.html">CacheException</a></li>
+				<li><a href="class-Psr.Cache.InvalidArgumentException.html">InvalidArgumentException</a></li>
+			</ul>
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Interface CacheItemPoolInterface</h1>
+
+
+	<div class="description">
+	<p>CacheItemPoolInterface generates CacheItemInterface objects.</p>
+	</div>
+
+
+
+
+
+	<div>
+		<h3>Direct known implementers</h3>
+		<p class="elementList">
+			<code><a href="class-StoreCore.FileSystem.Redirects.html">StoreCore\FileSystem\Redirects</a></code>
+		</p>
+	</div>
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Psr.html">Psr</a>\<a href="namespace-Psr.Cache.html">Cache</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-Psr.Cache.CacheItemPoolInterface.html#4-131" title="Go to source code">Psr/Cache/CacheItemPoolInterface.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="getItem" id="_getItem">
+
+			<td class="attributes"><code>
+				 public 
+				<code><a href="class-Psr.Cache.CacheItemInterface.html">Psr\Cache\CacheItemInterface</a></code>
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getItem">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#9-25" title="Go to source code">getItem</a>( <span>string <var>$key</var></span> )</code>
+
+			<div class="description short">
+				<p>Returns a Cache Item representing the specified key.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns a Cache Item representing the specified key.</p>
+
+<p>This method must always return a CacheItemInterface object, even in case of
+a cache miss. It MUST NOT return null.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd>The key for which to return the corresponding Cache Item.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						<code><a href="class-Psr.Cache.CacheItemInterface.html">Psr\Cache\CacheItemInterface</a></code><br>The corresponding Cache Item.
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-Psr.Cache.InvalidArgumentException.html">Psr\Cache\InvalidArgumentException</a></code><br><p>If the $key string is not a legal value a \Psr\Cache\InvalidArgumentException
+  MUST be thrown.</p>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="getItems" id="_getItems">
+
+			<td class="attributes"><code>
+				 public 
+				array|Traversable
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_getItems">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#27-43" title="Go to source code">getItems</a>( <span>array <var>$keys</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+			<div class="description short">
+				<p>Returns a traversable set of cache items.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Returns a traversable set of cache items.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$keys</var></dt>
+						<dd>An indexed array of keys of items to retrieve.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						array|Traversable<br><p>A traversable collection of Cache Items keyed by the cache keys of
+  each item. A Cache item will be returned for each key, even if that
+  key is not found. However, if no keys are specified then an empty
+  traversable MUST be returned instead.</p>
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-Psr.Cache.InvalidArgumentException.html">Psr\Cache\InvalidArgumentException</a></code><br><p>If any of the keys in $keys are not a legal value a \Psr\Cache\InvalidArgumentException
+  MUST be thrown.</p>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="hasItem" id="_hasItem">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_hasItem">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#45-62" title="Go to source code">hasItem</a>( <span>string <var>$key</var></span> )</code>
+
+			<div class="description short">
+				<p>Confirms if the cache contains specified cache item.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Confirms if the cache contains specified cache item.</p>
+
+<p>Note: This method MAY avoid retrieving the cached value for performance reasons.
+This could result in a race condition with CacheItemInterface::get(). To avoid
+such situation use CacheItemInterface::isHit() instead.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd>The key for which to check existence.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>True if item exists in the cache, false otherwise.
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-Psr.Cache.InvalidArgumentException.html">Psr\Cache\InvalidArgumentException</a></code><br><p>If the $key string is not a legal value a \Psr\Cache\InvalidArgumentException
+  MUST be thrown.</p>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="clear" id="_clear">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_clear">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#64-70" title="Go to source code">clear</a>( )</code>
+
+			<div class="description short">
+				<p>Deletes all items in the pool.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Deletes all items in the pool.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>True if the pool was successfully cleared. False if there was an error.
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="deleteItem" id="_deleteItem">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_deleteItem">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#72-85" title="Go to source code">deleteItem</a>( <span>string <var>$key</var></span> )</code>
+
+			<div class="description short">
+				<p>Removes the item from the pool.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Removes the item from the pool.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$key</var></dt>
+						<dd>The key for which to delete</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>True if the item was successfully removed. False if there was an error.
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-Psr.Cache.InvalidArgumentException.html">Psr\Cache\InvalidArgumentException</a></code><br><p>If the $key string is not a legal value a \Psr\Cache\InvalidArgumentException
+  MUST be thrown.</p>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="deleteItems" id="_deleteItems">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_deleteItems">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#87-100" title="Go to source code">deleteItems</a>( <span>array <var>$keys</var></span> )</code>
+
+			<div class="description short">
+				<p>Removes multiple items from the pool.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Removes multiple items from the pool.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$keys</var></dt>
+						<dd>An array of keys that should be removed from the pool.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>True if the items were successfully removed. False if there was an error.
+					</div>
+
+					<h4>Throws</h4>
+					<div class="list">
+						<code><a href="class-Psr.Cache.InvalidArgumentException.html">Psr\Cache\InvalidArgumentException</a></code><br><p>If any of the keys in $keys are not a legal value a \Psr\Cache\InvalidArgumentException
+  MUST be thrown.</p>
+					</div>
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="save" id="_save">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_save">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#102-111" title="Go to source code">save</a>( <span><code><a href="class-Psr.Cache.CacheItemInterface.html">Psr\Cache\CacheItemInterface</a></code> <var>$item</var></span> )</code>
+
+			<div class="description short">
+				<p>Persists a cache item immediately.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Persists a cache item immediately.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd>The cache item to save.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>True if the item was successfully persisted. False if there was an error.
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="saveDeferred" id="_saveDeferred">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_saveDeferred">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#113-122" title="Go to source code">saveDeferred</a>( <span><code><a href="class-Psr.Cache.CacheItemInterface.html">Psr\Cache\CacheItemInterface</a></code> <var>$item</var></span> )</code>
+
+			<div class="description short">
+				<p>Sets a cache item to be persisted later.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Sets a cache item to be persisted later.</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$item</var></dt>
+						<dd>The cache item to save.</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>False if the item could not be queued or if a commit was attempted and failed. True otherwise.
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="commit" id="_commit">
+
+			<td class="attributes"><code>
+				 public 
+				boolean
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_commit">#</a>
+			<code><a href="source-class-Psr.Cache.CacheItemPoolInterface.html#124-130" title="Go to source code">commit</a>( )</code>
+
+			<div class="description short">
+				<p>Persists any deferred cache items.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Persists any deferred cache items.</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						boolean<br>True if all not-yet-saved items were successfully saved or there were none. False otherwise.
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
